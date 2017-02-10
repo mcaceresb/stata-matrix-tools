@@ -1,0 +1,11 @@
+v 0.1
+d Various matrix utilities
+d Mauricio Caceres Bravo, mauricio.caceres.bravo@gmail.com
+d
+d Support: email mauricio.caceres.bravo at gmail dot com
+f matrix_add_col.ado
+f matrix_add_col.sthlp
+f matrix_add_row.ado
+f matrix_add_row.sthlp
+f matrix_to_excel.ado
+f matrix_to_excel.sthlp
