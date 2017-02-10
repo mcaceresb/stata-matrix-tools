@@ -36,3 +36,8 @@ matrix_to_excel using `"/path/to/workbook.xlsx"', cell(B2) mat(test) sheet("shee
 matrix_to_excel using `"/path/to/workbook.xlsx"', cell(B2) mat(test) sheet("sheet") ///
      starcolumns(2 3) starvalues(0.1 0.05 0.01) starsymbols(* ** ***) mformat(%9.2fc)
 ```
+
+TODO
+----
+
+- [ ] Figure out how to have `help matrix_add_col` redirect to `matrix_add_row`
