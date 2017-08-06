@@ -2,9 +2,9 @@ Description
 -----------
 
 Various simple but useful matrix utilities
-- `matrix_add_col`: Export Stata matrix to excel (leverages export excel)
+- `matrix_add_col`: Add column of missing values to existing matrix
 - `matrix_add_row`: Add row of missing values to existing matrix
-- `matrix_to_excel`: Add column of missing values to existing matrix
+- `matrix_to_excel`: Export Stata matrix to excel (leverages export excel)
 
 Requirements
 ------------
