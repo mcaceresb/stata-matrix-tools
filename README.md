@@ -15,7 +15,7 @@ Installation
 ------------
 
 ```stata
-net install matrix_tools, from(https://raw.githubusercontent.com/mcaceresb/stata-matrix-tools/master/)
+net install matrix_tools, from(https://raw.githubusercontent.com/kylebarron/stata-matrix-tools/master/)
 ```
 
 Examples

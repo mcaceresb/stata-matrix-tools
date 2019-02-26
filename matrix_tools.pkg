@@ -10,7 +10,10 @@ d Author: Mauricio Caceres Bravo
 d Support: mauricio.caceres.bravo@gmail.com
 d
 f matrix_add_col.ado
+f matrix_add_col.sthlp
 f matrix_add_row.ado
 f matrix_add_row.sthlp
 f matrix_to_excel.ado
 f matrix_to_excel.sthlp
+f matrix_to_txt.ado
+f matrix_to_txt.sthlp
