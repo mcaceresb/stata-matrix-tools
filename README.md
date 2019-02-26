@@ -2,20 +2,24 @@ Description
 -----------
 
 Various simple but useful matrix utilities
-- `matrix_add_col`: Add column of missing values to existing matrix
-- `matrix_add_row`: Add row of missing values to existing matrix
-- `matrix_to_excel`: Export Stata matrix to excel (leverages export excel)
+
+- `matrix_add_col`: Add column of missing values to existing matrix.
+- `matrix_add_row`: Add row of missing values to existing matrix.
+- `matrix_to_excel`: Export Stata matrix to excel (leverages export excel).
+- `matrix_to_txt`: Stata utility to export a matrix into a text file. This
 
 Requirements
 ------------
 
-I only have access to Stata 13.1, so I impose that to be the minimum. The command is really simple, however, so I would not be surprised if it worked with earlier versions.
+I only have access to Stata 13.1, so I impose that to be the
+minimum. The commands are really simple, however, so I would not be
+surprised if they worked with earlier versions.
 
 Installation
 ------------
 
 ```stata
-net install matrix_tools, from(https://raw.githubusercontent.com/kylebarron/stata-matrix-tools/master/)
+net install matrix_tools, from(https://raw.githubusercontent.com/mcaceresb/stata-matrix-tools/master/)
 ```
 
 Examples
@@ -37,7 +41,8 @@ matrix_to_excel using `"/path/to/workbook.xlsx"', cell(B2) mat(test) sheet("shee
      starcolumns(2 3) starvalues(0.1 0.05 0.01) starsymbols(* ** ***) mformat(%9.2fc)
 ```
 
-TODO
-----
+Notes
+-----
 
-- [ ] Figure out how to have `help matrix_add_col` redirect to `matrix_add_row`
+I often use the `matrix_to_txt` so I keep a copy here. However, this
+utility was written by Michael Blasnik, Ben Jann, and Matthew Gentzkow.
